@@ -85,9 +85,9 @@ uint32_t cmdParser(vector<string> args, string &host, string &port, string &apiC
 
 int main(int argc, char* argv[]) {
 
-	cout << "====================================" << endl;
-	cout << "  BEAM Equihash 150/5 OpenCL miner  " << endl;
-	cout << "====================================" << endl;
+	cout << "========================" << endl;
+	cout << " Equihash OpenCL miner  " << endl;
+	cout << "========================" << endl;
 
 	vector<string> cmdLineArgs(argv, argv+argc);
 	string host;
