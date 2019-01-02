@@ -48,7 +48,7 @@ void CL_CALLBACK CCallbackFunc(cl_event ev, cl_int err , void* data) {
 
 // Function to load the OpenCL kernel and prepare our device for mining
 void clHost::loadAndCompileKernel(cl::Device &device, uint32_t pl) {
-	cout << "Loading and compiling Beam OpenCL Kernel" << endl;
+	cout << "Loading and compiling OpenCL Kernel" << endl;
 
 	// reading the kernel file
 	cl_int err;

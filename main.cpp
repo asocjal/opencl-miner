@@ -111,8 +111,8 @@ int main(int argc, char* argv[]) {
 
 		cout << "Parameters: " << endl;
 		cout << " --help / -h 			Showing this message" << endl;
-		cout << " --server <server>:<port>	The BEAM stratum server and port to connect to (required)" << endl;
-		cout << " --key <key>			The BEAM stratum server API key (required)" << endl;
+		cout << " --server <server>:<port>	Stratum server and port to connect to (required)" << endl;
+		cout << " --key <key>			Stratum server API key (required)" << endl;
 		cout << " --devices <numbers>		A comma seperated list of devices that should be used for mining (default: all in system)" << endl; 
 		cout << " --enable-cpu			Enable mining on OpenCL CPU devices" << endl;
 		exit(0);
