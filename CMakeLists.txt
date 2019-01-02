@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.1) 
-project(beam-opencl-miner)
-set(TARGET_NAME beam-opencl-miner)
+set(TARGET_NAME beamMiner)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
