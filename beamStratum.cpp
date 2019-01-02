@@ -7,11 +7,6 @@
 #include "beamStratum.h"
 #include "crypto/sha256.c"
 
-#ifdef __APPLE__
-#include <libkern/OSByteOrder.h>
-#define htobe32(x) OSSwapHostToBigInt32(x)
-#endif
-
 namespace beamMiner {
 
 // This one ensures that the calling thread can work on immediately
